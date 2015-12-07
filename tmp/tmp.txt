@@ -1,0 +1,32 @@
+1. 小李想要看到五十音图
+2. 小王熟悉平假名，但不熟悉片假名
+3. 小张说除了平假名和片假名外，他还看到缩小的假名，他想知道那些是什么
+4. 小张想听到假名的发音
+5. 小王想对照看平假名和片假名
+6. 小王想做些练习，来加深记忆平假名和片假名
+7. 小李想知道他的假名的发音标准不
+8. 
+
+
+class Word:
+#平假名hiragana
+#片假名katakana
+#罗马音roma
+#类型type=(清音、拨音、浊音、半浊音、拗音)
+#音频audio
+#输入法inputCode
+
+	def fiftySoundFigure():
+	'''50音图
+	
+	def sayWord():
+	'''单词发音
+	
+	def switchHiraganaToKatakana():
+	'''平假名转片假名
+	
+	def switchKatakanaToHiragana():
+	'''片假名转平假名
+	
+	
+	
