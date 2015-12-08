@@ -85,6 +85,7 @@ class WordHelper:
 	
 	QA = {}
 	def question(self):
+		self.QA = {}
 		for i in range(5):
 			rnd  = random.choice(self.wordList)
 			if random.randint(0, 1) == 1:
