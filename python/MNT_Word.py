@@ -10,6 +10,12 @@ class Word:
 	音频audio
 	输入法inputCode
 	'''
+	hiragana = ""
+	katakana = ""
+	roma = ""
+	type = ""
+	audio = ""
+	inputCode = ""
 
 
 	def __init__(self, param):
@@ -19,3 +25,6 @@ class Word:
 		self.type = ""
 		self.audio = ""
 		self.inputCode = param[3]
+
+	def detail(self):
+		return (self.hiragana, self.katakana, self.roma, self.inputCode)
